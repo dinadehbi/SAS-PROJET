@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor "User" as User
+
+rectangle "Lieu" {
+  usecase "Nom" as UC1
+  usecase "Adresse" as UC2
+  usecase "Capacité" as UC3
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+@enduml
